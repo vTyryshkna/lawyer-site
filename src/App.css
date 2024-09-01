@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+.menu{
+  background-blend-mode: multiply;
+  background-image: url('./assets/bg-img.png');
+  background-color: #1FA8AD;
+  opacity: 0.95;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.linkColor{
+  color: #FFFFFF !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg-img{
+  opacity: 0.60;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container-components{
+  background-blend-mode: multiply;
+  background-image: url('./assets/bg-img.png');
+  background-color: #F5F7FC;
+  opacity: 0.95;
+  margin: 0;
+  height: 150px;
+  padding: 0px, 0px, 60px, 0px;
+}
+.h-category{
+  padding-top: 70px;
+  color: #1FA8AD !important;
+}
+.card-header{
+  height: 90px !important;
+}
+.card-body{
+  height: 245px !important;
+}
+.col{
+  padding: 10px;
+}
+.carousel-inner{
+  width: 100% !important;
+}
+.item-indicators, .carousel-control-next-icon, .carousel-control-prev-icon{
+  display: none !important;
+}
+.item{
+  width: 480px !important;
+}
+.card-img{
+  /*width: 480px !important;
+  height: 640px !important;*/
+  width: 683px;
+  aspect-ratio: auto 683 / 1024;
+}
+.card{
+  margin: 15px;
+  padding: 5px;
+}
+.body-photo{
+  height: 640px !important;
+}
+.container-aboutMe, .container-review{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
-
-.App-link {
-  color: #61dafb;
+.aboutMe{
+  display: ruby;
+  margin: 15px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.aboutMe photo{
+  max-width: 100%;
+}
+.card text{
+  width: 40rem;
+}
+p{
+  text-align: justify;
+  font-style: italic;
+}
+.container-price, .practice{
+  margin: 50px 70px 50px 15px;
+}
+.container-review{
+  gap: 50px;
+}
+.carousel-review{
+  display: inline-block;
+}
+.practice {
+  padding: 15px;
+  text-align: center;
 }
